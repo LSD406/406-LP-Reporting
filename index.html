@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPT Chat - .406 Ventures</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="login-screen" class="card">
+    <img src="logo406.png" alt=".406 Ventures Logo" class="logo">
+    <h2>Secure Access</h2>
+    <input type="password" id="password" placeholder="Enter password">
+    <button onclick="handleLogin()">Login</button>
+    <p id="login-error" class="error"></p>
+  </div>
+
+  <div id="chat-screen" class="hidden">
+    <div class="chat-header">
+      <img src="logo406.png" alt=".406 Ventures Logo" class="logo-small">
+      <h2>Fund II GPT Assistant</h2>
+    </div>
+    <div id="chat-box"></div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Type your question...">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
