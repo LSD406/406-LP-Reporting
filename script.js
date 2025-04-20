@@ -1,5 +1,5 @@
 const PASSWORD = "TedWilliams";
-let apiKey = "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"; // Replace this with your OpenAI API key
+let apiKey = "API CODE"; // Replace this with your OpenAI API key
 
 function handleLogin() {
   const input = document.getElementById("password").value;
